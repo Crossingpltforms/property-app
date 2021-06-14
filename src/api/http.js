@@ -2,17 +2,17 @@ import { Platform } from 'react-native'
 
 const PRODUCTION = false
 
-// const pathDev = 'http://api-alpha.speedrent.com' // Alpha
-const pathDev = 'https://api-beta.speedrent.com' // Beta
-const path = 'https://api.speedrent.com' // Live
+// const pathDev = 'http://domain.com' // Alpha
+const pathDev = 'https://domain.com' // Beta
+const path = 'https://domain.com' // Live
 
-// const chatDev = 'http://alpha.speedrent.com'     // Alpha
-const chatDev = 'https://api-beta.speedrent.com' // Beta
-const chat = 'https://speedhome.com' // Live
+// const chatDev = 'http://domain.com'     // Alpha
+const chatDev = 'https://domain.com' // Beta
+const chat = 'https://domain.com' // Live
 
-// const moreDev = 'http://alpha.speedrent.com/more/' // Alpha
-const moreDev = 'http://beta.speedhome.com/more/' // Beta
-const more = 'https://speedhome.com/more/' // Live
+// const moreDev = 'http://domain/more/' // Alpha
+const moreDev = 'http://domain/more/' // Beta
+const more = 'https://domain/more/' // Live
 
 const CHATURL = PRODUCTION ? chat : chatDev
 const MOREURL = PRODUCTION ? more : moreDev

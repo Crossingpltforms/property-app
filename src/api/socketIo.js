@@ -1,28 +1,28 @@
 import io from 'socket.io-client'
 import { SUBSCRIBE } from './socket-event'
 import { PRODUCTION } from './http'
-// const socketEndPointDEV = 'http://chat-alpha-wss.speedrent.com:11105' // Alpha
-const socketEndPointDEV = 'https://chat-beta-socketio.speedrent.com' // Beta
-const socketEndPointProd = 'https://chat-socketio.speedrent.com'
+// const socketEndPointDEV = 'http://domain.com:11105' // Alpha
+const socketEndPointDEV = 'https://domain.com' // Beta
+const socketEndPointProd = 'https://domain.com'
 const socketEndPoint = PRODUCTION ? socketEndPointProd : socketEndPointDEV
 // const socketEndPoint = 'http://localhost:8182'
 
 // const IMAGE_UPLOAD_URL_DEV =
-  // 'http://chat-alpha-wss.speedrent.com:11005/api/conversation/file/' //Alpha
+  // 'http://host:11005/api/conversation/file/' //Alpha
 
 const IMAGE_UPLOAD_URL_DEV =
-  'https://chat-beta-wss.speedrent.com/api/conversation/file/' // Beta
+  'https://host/api/conversation/file/' // Beta
 
 const IMAGE_UPLOAD_URL_PROD =
-  'https://chat.speedrent.com/api/conversation/file/'
+  'https://host/api/conversation/file/'
 
 export const IMAGE_UPLOAD_URL = PRODUCTION
   ? IMAGE_UPLOAD_URL_PROD
   : IMAGE_UPLOAD_URL_DEV
 
-const VIDEO_UPLOAD_URL_DEV = 'https://chat-beta.speedrent.com/api/conversation/' // Beta
+const VIDEO_UPLOAD_URL_DEV = 'https://domain/api/conversation/' // Beta
 
-const VIDEO_UPLOAD_URL_PROD = 'https://chat.speedrent.com/api/conversation/'
+const VIDEO_UPLOAD_URL_PROD = 'https://domain/api/conversation/'
 
 export const VIDEO_UPLOAD_URL = PRODUCTION
   ? VIDEO_UPLOAD_URL_PROD
