@@ -1,0 +1,30 @@
+import React from 'react'
+
+export const assets = {
+  credInActiveIcon: require('./credit_check_inactive.png'),
+  credActiveIcon: require('./credit_check_active.png'),
+  credActiveGreenIcon: require('./credit_check_active_green.png'),
+  arrowBack: require('./arrow_back.png'),
+  business: require('./business.png'),
+  business_white: require('./business_white.png'),
+  calendar: require('./calendar.png'),
+  check_box_outline_blank: require('./check_box_outline_blank.png'),
+  check_box: require('./check_box.png'),
+  delete: require('./delete.png'),
+  done: require('./done.png'),
+  drop_down: require('./drop_down.png'),
+  student: require('./student.png'),
+  student_white: require('./student_white.png'),
+  successful_tick: require('./successful_tick.png'),
+  successful_tick_green: require('./successful_tick_green.png'),
+  upload_add: require('./upload_add.png'),
+  upload_more: require('./upload_more.png'),
+  work: require('./work.png'),
+  work_white: require('./work_white.png'),
+  green_check_big: require('./verify_green_big.png'),
+  doneGreen: require('./done_green.png'),
+  noData: require('./NoData.png'),
+  continueWithFB: require('./continueFB.jpg'),
+  linkFB: require('./linkFb.jpg'),
+  homeImg: require('./home.png')
+}

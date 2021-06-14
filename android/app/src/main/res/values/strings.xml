@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SpeedHome</string>
+    <string name="facebook_app_id" translatable="false">389948874543236</string>
+    <string name="smartech_app_id" translatable="false">c538dafe193298bc1c7d31d9ef81e3d5</string>
+    <string name="default_notification_channel_id" translatable="false">com.reactnativewithspeedhome.default_channel_id</string>
+</resources>

@@ -1,0 +1,22 @@
+{
+  "Profile": "Profil",
+  "Info": "Info",
+  "Edit": "Bearbeiten",
+  "Edit Profile": "Profil bearbeiten",
+  "Change Password": "Ändere das Passwort",
+  "Cancel": "Stornieren",
+  "Delete": "Löschen",
+  "Log out": "Ausloggen",
+  "Delete Account": "Konto löschen",
+  "Old Password": "Altes Passwort",
+  "New Password": "Neues Kennwort",
+  "Confirm New Password": "Bestätige neues Passwort",
+  "Are you sure you want to Log out?": "Möchten Sie sich wirklich abmelden?",
+  "Are you sure you want to Delete Account?": "Möchten Sie das Konto wirklich löschen?",
+  "Take Photo": "Foto machen",
+  "Choose from Gallery": "Wählen Sie aus der Galerie",
+  "Error": "Error",
+  "Sorry, We are unable to find your current location": "Entschuldigung, wir können Ihren aktuellen Standort nicht finden.",
+  "Ok": "Ok",
+  "Success": "Erfolg"
+}

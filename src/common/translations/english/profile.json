@@ -1,0 +1,22 @@
+{
+  "Profile": "Profile",
+  "Info": "Info",
+  "Edit": "Edit",
+  "Edit Profile": "Edit Profile",
+  "Change Password": "Change Password",
+  "Cancel": "Cancel",
+  "Delete": "Delete",
+  "Log out": "Log out",
+  "Delete Account": "Delete Account",
+  "Old Password": "Old Password",
+  "New Password": "New Password",
+  "Confirm New Password": "Confirm New Password",
+  "Are you sure you want to Log out?": "Are you sure you want to Log out?",
+  "Are you sure you want to Delete Account?": "Are you sure you want to Delete Account",
+  "Take Photo": "Take Photo",
+  "Choose from Gallery": "Choose from Gallery",
+  "Error": "Error",
+  "Sorry, We are unable to find your current location": "Sorry, We are unable to find your current location",
+  "Ok": "Ok",
+  "Success": "Success"
+}

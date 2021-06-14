@@ -1,0 +1,22 @@
+{
+  "Profile": "Profile",
+  "Info": "Informacje",
+  "Edit": "Edytować",
+  "Edit Profile": "Edytuj profil",
+  "Change Password": "Zmień hasło",
+  "Log out": "Wyloguj",
+  "Cancel": "Anuluj",
+  "Delete": "Kasować",
+  "Delete Account": "Usuń konto",
+  "Old Password": "Stare hasło",
+  "New Password": "nowe hasło",
+  "Confirm New Password": "Potwierdź nowe hasło",
+  "Are you sure you want to Log out?": "Czy na pewno chcesz się wylogować?",
+  "Are you sure you want to Delete Account?": "Czy na pewno chcesz usunąć konto",
+  "Take Photo": "Zrobić zdjęcie",
+  "Choose from Gallery": "Wybierz z galerii",
+  "Error": "Błąd",
+  "Sorry, We are unable to find your current location": "Przepraszamy, nie możemy znaleźć Twojej bieżącej lokalizacji.",
+  "Ok": "Dobrze",
+  "Success": "Powodzenie"
+}

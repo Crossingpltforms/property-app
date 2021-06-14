@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native-phone-input/lib/countryPicker.js b/node_modules/react-native-phone-input/lib/countryPicker.js
+index 46659fc..494aa7b 100644
+--- a/node_modules/react-native-phone-input/lib/countryPicker.js
++++ b/node_modules/react-native-phone-input/lib/countryPicker.js
+@@ -1,5 +1,6 @@
+ import React, { Component } from 'react';
+-import { Text, TouchableOpacity, View, Modal, Picker } from 'react-native';
++import { Text, TouchableOpacity, View, Modal } from 'react-native';
++import {Picker} from '@react-native-community/picker';
+ import PropTypes from 'prop-types';
+ 
+ import Country from './country';

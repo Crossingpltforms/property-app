@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/NetcoreSolutions/Specs.git'
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+
+  target 'SpeedHome' do
+    config = use_native_modules!
+  
+    use_react_native!(:path => config["reactNativePath"])
+  
+    pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
+    target 'SpeedHomeTests' do
+      inherit! :complete
+      # Pods for testing
+    end
+  
+    # Enables Flipper.
+    #
+    # Note that if you have use_frameworks! enabled, Flipper will not work and
+    # you should disable these next few lines.
+    use_flipper!
+    post_install do |installer|
+      flipper_post_install(installer)
+    end
+  end
+  
+  target 'SpeedHome-tvOS' do
+    # Pods for SpeedHome-tvOS
+  
+    target 'SpeedHome-tvOSTests' do
+      inherit! :search_paths
+      # Pods for testing
+    end
+  end
+  
